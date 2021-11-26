@@ -18,8 +18,8 @@ body {
     align-items: center;
 }
 .canvas {
-    width: 500px;
-    height: 600px;
+    width: 700px;
+    height: 700px;
     background-color: var(--color-white);
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
@@ -42,7 +42,7 @@ body {
 .controls .control_buttons .button {
     margin: 2px;
     padding: 4px;
-    width: 80px;
+    width: 150px;
     background-color: var(--color-white);
     box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
     border-radius: 5px;
@@ -58,6 +58,7 @@ body {
 .controls .control_colors {
     display: flex;
     flex-direction: row;
+    justify-content: center;
 
 }
 
@@ -71,7 +72,7 @@ body {
     box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
-.controls .control_colors .black{
+/* .controls .control_colors .black{
     background-color: var(--color-black);
 }
 
@@ -105,4 +106,4 @@ body {
 
 .controls .control_colors .purple{
     background-color: var(--color-purple);
-}
+} */
