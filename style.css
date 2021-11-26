@@ -1,0 +1,108 @@
+:root{
+    /* Color */
+    --color-white : #f7f0f0;
+    --color-black : #0f0f0f;
+    --color-red : #f00d0d;
+    --color-orange : #c26b07;
+    --color-yellow : #eeea0f;
+    --color-green : #08e43f;
+    --color-sky : #18a4db;
+    --color-blue : #340dc0;
+    --color-purple : #c622d4;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.canvas {
+    width: 500px;
+    height: 600px;
+    background-color: var(--color-white);
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    margin-top: 100px;
+    margin-bottom: 40px;
+
+}
+
+.controls .control_range{
+    display: flex;
+    justify-content: center;
+}
+
+.controls .control_buttons {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.controls .control_buttons .button {
+    margin: 2px;
+    padding: 4px;
+    width: 80px;
+    background-color: var(--color-white);
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.2);
+    font-size: large;
+    font-weight: 600;
+    color: rgba(0,0,0,0.5);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+
+.controls .control_colors {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.controls .control_colors .color {
+    background-color: tomato;
+    margin: 2px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.controls .control_colors .black{
+    background-color: var(--color-black);
+}
+
+.controls .control_colors .white{
+    background-color: var(--color-white);
+}
+
+.controls .control_colors .red{
+    background-color: var(--color-red);
+}
+
+.controls .control_colors .orange{
+    background-color: var(--color-orange);
+}
+
+.controls .control_colors .yellow{
+    background-color: var(--color-yellow);
+}
+
+.controls .control_colors .green{
+    background-color: var(--color-green);
+}
+
+.controls .control_colors .sky{
+    background-color: var(--color-sky);
+}
+
+.controls .control_colors .blue{
+    background-color: var(--color-blue);
+}
+
+.controls .control_colors .purple{
+    background-color: var(--color-purple);
+}
